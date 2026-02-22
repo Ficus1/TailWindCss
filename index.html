@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="flex justify-between p-[26px] text-[18pt] items-center lg:text-[16pt] md:text-[15pt] sm:text-[14pt] sm:p-0 sm:py-[26px]">
+                <a class="flex justify-between items-center" href="#">
+                    <img class="rounded-[50%] w-[100px] h-[100px]" src="./assets/images/logo.png" alt="">
+                    <p class="pl-[20px]">Text logo</p>
+                </a>
+
+                <ul class="flex gap-12 md:hidden">
+                    <li><a class="hover:text-gray text-black" href="#">нужная вещь</a></li>
+                    <li><a class="hover:text-gray text-black" href="#">нужная вещь</a></li>
+                    <li><a class="hover:text-gray text-black" href="#">нужная вещь</a></li>
+                </ul>
+
+                <ul  id="menu" class="hidden absolute left-6 right-6 top-32 bg-gray flex-col items-center">
+                    <li><a class="block py-4" href="#">1</a></li>
+                    <li><a class="block py-4" href="#">2</a></li>
+                    <li><a class="block py-4" href="#">3</a></li>
+                </ul>
+
+                <button class="burger hidden md:block">
+                    <span class="burger-line top-line"></span>
+                    <span class="burger-line middle-line"></span>
+                    <span class="burger-line bottom-line"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="flex text-[16pt] lg:text-[14pt] md:text-[12pt] p-[26px] pt-0">
+            <div class="flex justify-between items-top flex-col w-1/2 pr-[20px]">
+                <h1 class="font-bold">Девиз кампании</h1>
+                <p>И нет сомнений, что интерактивные прототипы, превозмогая сложившуюся непростую экономическую ситуацию, рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок.</p>
+            </div>
+            <div class="flex justify-between items-top flex-col w-1/2">
+                <h1 class="font-bold">Цель кампании</h1>
+                <p>В своём стремлении улучшить пользовательский опыт мы упускаем, что представители современных социальных резервов являются только методом политического участия и объединены в целые кластеры себе подобных.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="flex justify-center items-center pb-[20px] text-[20pt] font-bold">Отзывы</h1>
+        <div class="flex justify-between items-top gap-4 md:flex-col">
+            <div class="flex justify-between gap-4 w-[50%] md:w-[100%] md:items-top">
+                <div class="w-[49%] flex items-center flex-col rounded-[5%] border-2 border-gray shadow-black">
+                    <img src="./assets/images/artas-varkraft-art.jpg" class="w-[150px] h-[150px] rounded-[50%] p-2 md:h-[100px] md:w-[100px]" alt="">
+                    <p class="p-2">С другой стороны рамки и место обучения кадров способствует подготовки и реализации модели развития. Повседневная практика показывает, что реализация намеченных плановых заданий в значительной степени обуславливает создание модели развития.</p>
+                </div>
+                <div class="w-[49%] flex items-center flex-col rounded-[5%] border-2 border-gray shadow-black">
+                    <img src="./assets/images/artas-varkraft-art.jpg" class="w-[150px] h-[150px] rounded-[50%] p-2 md:h-[100px] md:w-[100px]" alt="">
+                    <p class="p-2">С другой стороны постоянное информационно-пропагандистское обеспечение нашей деятельности обеспечивает широкому кругу (специалистов) участие в формировании позиций, занимаемых участниками в отношении поставленных задач.</p>
+                </div>
+            </div>
+            <div class="flex justify-between gap-4 w-[50%] md:w-[100%] md:items-top">
+                <div class="w-[49%] flex items-center flex-col rounded-[5%] border-2 border-gray shadow-black">
+                    <img src="./assets/images/artas-varkraft-art.jpg" class="w-[150px] h-[150px] rounded-[50%] p-2 md:h-[100px] md:w-[100px]" alt="">
+                    <p class="p-2">С другой стороны рамки и место обучения кадров способствует подготовки и реализации модели развития. Равным образом консультация с широким активом требуют определения и уточнения модели развития.</p>
+                </div>
+                <div class="w-[49%] flex items-center flex-col rounded-[5%] border-2 border-gray shadow-black">
+                    <img src="./assets/images/artas-varkraft-art.jpg" class="w-[150px] h-[150px] rounded-[50%] p-2 md:h-[100px] md:w-[100px]" alt="">
+                    <p class="p-2">С другой стороны укрепление и развитие структуры обеспечивает участие в формировании систем массового участия. Не следует, однако забывать, что дальнейшее развитие различных форм деятельности способствует подготовки и реализации форм развития.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="flex items-center justify-center pt-[20px]">
+            <form action="#" class="w-[100%]">
+                <fieldset class="flex flex-col gap-12 items-center border-2 border-gray">
+                    <legend class="font-bold text-[20pt] flex">Бронирование билета</legend>
+                    <label for="#" class="flex-col flex w-[50%]">1<input class="border-2" type="text"></label>
+                    <label for="#" class="flex-col flex w-[50%]">2<input class="border-2" type="text"></label>
+                    <label for="#" class="flex-col flex w-[50%]">3<input class="border-2" type="text"></label>
+                    <button type="button" class="h-10 bg-slate-500 relative w-[50%] mb-[20px] border-2 shadow-black">Подтвердить</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

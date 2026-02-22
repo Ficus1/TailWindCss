@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "scripts": {
+    "watch": "npx tailwindcss -i ./input.css -o ./assets/css/style.css --watch",
+    "build": "npx tailwindcss -i ./input.css -o ./assets/css/style.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19"
+  }
+}
